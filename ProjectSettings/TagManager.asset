@@ -7,6 +7,10 @@ TagManager:
   - bola
   - flipper
   - parede
+  - bumper
+  - triangle
+  - futbola
+  - capsule
   layers:
   - Default
   - TransparentFX
