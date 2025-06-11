@@ -11,6 +11,7 @@ TagManager:
   - triangle
   - futbola
   - capsule
+  - Ball
   layers:
   - Default
   - TransparentFX

@@ -9,24 +9,22 @@ public class FlipperController : MonoBehaviour
 
     void Update()
     {
-        // Flipper esquerdo (seta esquerda ou A)
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            SetMotor(leftFlipper, -motorSpeed); // gira pra dentro
+            SetMotor(leftFlipper, -motorSpeed);
         }
         else
         {
-            SetMotor(leftFlipper, motorSpeed); // repouso
+            SetMotor(leftFlipper, motorSpeed);
         }
 
-        // Flipper direito (seta direita ou D)
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            SetMotor(rightFlipper, motorSpeed); // gira pra dentro
+            SetMotor(rightFlipper, motorSpeed);
         }
         else
         {
-            SetMotor(rightFlipper, -motorSpeed); // repouso
+            SetMotor(rightFlipper, -motorSpeed);
         }
     }
 
